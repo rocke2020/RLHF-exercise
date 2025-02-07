@@ -26,14 +26,7 @@ XML_COT_FORMAT = """\
 <reasoning>
 </reasoning>
 <answer>
-</answer>
+</answer>\
 """
-print(XML_COT_FORMAT)
-print("Hello, World!")
-XML_COT_FORMAT = """
-<reasoning>
-</reasoning>
-<answer>
-</answer>
-"""
-print(XML_COT_FORMAT)
+r = XML_COT_FORMAT.split("\n</answer>")
+print(r)
