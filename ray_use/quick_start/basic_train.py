@@ -39,7 +39,7 @@ class NeuralNetwork(nn.Module):
 
 
 def train_func():
-    num_epochs = 3
+    num_epochs = 1
     batch_size = 64
 
     dataset = get_dataset()
