@@ -9,4 +9,4 @@ export CUDA_VISIBLE_DEVICES=$gpu
 # python program exists. If you start it with ray start, you can use the ray stop 
 # command to shutdown the cluster. You can also use ray stop --force to forcefully 
 # kill all processes left.
-ray start --head --node-ip-address 0.0.0.0 --num-gpus 4
+# ray start --head --node-ip-address 0.0.0.0 --num-gpus 4
